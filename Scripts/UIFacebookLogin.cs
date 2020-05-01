@@ -12,7 +12,7 @@ public class UIFacebookLogin : MonoBehaviour
     public UnityEvent onLoginCancelled;
     public StringEvent onLoginFail;
 
-    private void Awake()
+    private void Start()
     {
         if (!FB.IsInitialized)
         {
