@@ -702,7 +702,7 @@ MonoBehaviour:
   inputDialog: {fileID: 439239425}
   rewardItemsDialog: {fileID: 1651604938}
   loadingObject: {fileID: 1778298261}
-  loginScene: LoginSceneWebService
+  loginScene: LoginScene_FacebookLogin
   manageScene: ManageScene
   battleScene: BattleScene
   isRememberLogin: 1
