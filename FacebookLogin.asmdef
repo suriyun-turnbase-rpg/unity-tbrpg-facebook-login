@@ -1,0 +1,10 @@
+{
+    "name": "FacebookLogin",
+    "references": [
+        "BaseRPG"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
