@@ -22,6 +22,6 @@ public class WebServiceFacebookLogin : BaseFacebookLoginService
         webServiceClient.PostAsDecodedJSON<PlayerResult>("/login-with-facebook", (www, result) =>
         {
             onFinish(result);
-        }, JsonConvert.SerializeObject(dict));
+        }, dict);
     }
 }
